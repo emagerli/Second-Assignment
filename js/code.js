@@ -8,7 +8,7 @@ function loadTrends (){
 }
 
 function changeStyles() {
-    document.body.classList.add('dark')
+    document.body.classList.toggle('dark')
 }
 
 document.querySelector('.btn').addEventListener('click', loadTrends)
